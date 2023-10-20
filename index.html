@@ -4,6 +4,7 @@
     <title>微光工作室</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/images/favicon.png"> 
     
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Muli:300,400,700,900" rel="stylesheet">
 
@@ -28,14 +29,14 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
-  <div id="overlayer" style="background-color: black;">
+  <!-- <div id="overlayer" style="background-color: black;">
     <div class="loader">
       <img src="images/GIF.gif" id="pic-overlay">
-       <!-- <div class="spinner-border text-primary" role="status">
+        <div class="spinner-border text-primary" role="status">
         <span class="sr-only">Loading...</span>
-      </div> -->
+      </div> 
     </div> 
-  </div>
+  </div> -->
 
   <div class="site-wrap">
 
@@ -62,8 +63,8 @@
                 <li><a href="#testimonials-section" class="nav-link">荣誉</a></li>
                 <li><a href="#work-section" class="nav-link">场地</a></li>
                 <li><a href="#services-section" class="nav-link">方向简介</a></li>
-                <li><a href="#" class="nav-link">光点计划</a></li>
-                <li><a href="#" class="nav-link">招新平台</a></li>
+                <li><a href="https://lab.glimmer.org.cn/" target="_blank" class="nav-link">光点计划</a></li>
+                <li><a href="https://recruit.glimmer.org.cn/" target="_blank" class="nav-link">招新平台</a></li>
               </ul>
             </nav>
           </div>
@@ -141,10 +142,6 @@
                 <li>目前团队在校成员在OS内核、云计算、编译技术、硬件设计、SDN等方向均有研究进展与项目实现，毕业成员也多投身基础架构相关岗位和研究领域。除此之外，团队也拥有应用层web开发、机器学习等成熟的技术组与培养路线，欢迎不同技术方向的同学与我们共同进步。</li>
                 <li>“心有微光，不惧黑暗”是我们的口号，也是微光工作室在发展中始终贯彻的信条。秉持“兴趣驱动，自由发展”的理念，我们乐于接收对不同技术方向感兴趣的朋友，善于探求未知的技术领域。工作室由一群热爱技术的Geek组成，力图召集志同道合，敢于创新的伙伴们共同拼搏，挑战自我。</li>
                 <li>此外，工作室每隔几周就有内部分享会，邀请优秀成员将自己的技术见闻或者idea进行分享，所谓开源互助，共同进步。</li>
-                  <ul>
-                    <li>不过工作室毕竟是以“技术”为主的，大家都是为了能获得更强的技术和更高的知识水平而奋斗（好中二），毕竟工作室内有那么多资源，真进了工作室还一点没学也有点说不过去，我们更希望的还是大家共同进步共同成长（整天摸鱼划水你在大佬面前也抬不起头不是）</li>
-                  </ul>
-                </li>
               </ul>
             </div>
 
@@ -212,10 +209,12 @@
                 <blockquote>
                   <p>
                     <ul class="honors-text">
+                      <li>第十四届服务外包创新创业大赛国家级二等奖x1</li>
+                      <li>第十二届软件杯大赛国家级三等奖x1</li>
+                      <li>全国大学生计算机系统能力大赛编译系统设计赛全国二等奖x1</li>
+                      <li>全国大学生计算机系统能力大赛数据库管理系统设计赛全国二等奖x1</li>
                       <li>蓝桥杯信息技术产业人才大赛省级二等奖x2+省级三等奖x1</li>
                       <li>第十六届中国大学生计算机设计大赛省级二等奖x1+省级三等奖x1</li>
-                      <li>服务外包创新创业大赛西部区域赛一等奖x1+国家级三等奖x1</li>
-                      <li>第十二届软件杯大赛区域赛一等奖x1+国家级三等奖x1（进行中）</li>
                     </ul>
                   </p>
                   <p class="author">&mdash;  2023</p>
@@ -340,7 +339,8 @@
           <div>
             <span class="custom-icon-wrap"><span class="icon-web_asset"></span></span>
             <h3>Web || 后端</h3>
-            <p>一个好看的皮囊固然重要，但里面有趣的灵魂也绝不可缺少。如果说前端是那好看的皮囊，那么后端便是那其中有趣的灵魂，负责着设计程序架构、管理数据库以控制前端所展示的内容。</p>
+            <p>一个好看的皮囊固然重要，但里面有趣的灵魂也绝不可缺少。如果说前端是那好看的皮囊，那么后端便是那其中有趣的灵魂，
+              负责着设计程序架构、管理数据库以控制前端所展示的内容。</p>
           </div>
         </div>
 
@@ -362,6 +362,56 @@
           </div>
         </div>
 
+        <div class="service">
+          <div>
+            <span class="custom-icon-wrap"><span class="icon-web_asset"></span></span>
+            <h3>分布式系统与云计算</h3>
+            <h5>光点计划</h5>
+            <p>分布式系统是由一组通过网络进行通信、为了完成共同的任务而协调工作的计算机节点组成的系统。面对互联网技术与应用的爆炸式发展，
+              分布式系统已经成为了现代化信息系统的必备支撑。无论是天猫双十一秒杀、抖音视频流业务还是云原神负载均衡，
+              分布式系统的思想已然涉及现代互联网业务的方方面面。</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="custom-icon-wrap"><span class="icon-copyright"></span></span>
+            <h3>编译原理</h3>
+            <h5>光点计划</h5>
+            <p>你是否好奇在你编写的代码中所使用的函数、变量和逻辑是如何被翻译成计算机能够执行的指令的呢？你是否好奇编译世界中的前后中端是什么？
+              你听说过LLVM吗？你是否想从上层应用走下底层，探索编译与汇编的奥秘？</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div>
+            <span class="custom-icon-wrap"><span class="icon-camera_enhance"></span></span>
+            <h3>处理器设计</h3>
+            <h5>光点计划</h5>
+            <p>在《三体》科幻小说中，描述了这样一个计算机：人列计算机。该计算机由3000万士兵组成，规模之大。如今的计算机芯片，
+              同样也是由百万级的元件构成。处理器设计就是如何利用这些元件通过连接组合一个可以完成复杂计算任务的解决过程。然后
+              就是对设计进行优化，使用最少的元件，最小的延迟完成一个计算任务。</p>
+          </div>
+        </div>
+        
+        <div class="service">
+          <div>
+            <span class="custom-icon-wrap"><span class="icon-camera_enhance"></span></span>
+            <h3>操作系统</h3>
+            <h5>光点计划</h5>
+            <p>说到操作系统，不知道大家对挂在嘴边的windows是否有所了解，它就是我们最广为熟知操作系统。操作系统是计算机系统中至关重要的组成部分，负责管理计算机的各种资源，以及协调不同程序之间的执行，就连你目前查看我们官网的硬件屏幕也离不开操作系统的管理。</p>
+          </div>
+        </div>
+        
+        <div class="service">
+          <div>
+            <span class="custom-icon-wrap"><span class="icon-camera_enhance"></span></span>
+            <h3>CV图像分类</h3>
+            <h5>光点计划</h5>
+            <p>在计算机视觉（CV）领域，图像分类任务占有较大的份额。目前有大量的研究人员都在专注于这个领域，并已经有广泛且深厚的研究成果。与图像分类有关的业务在日常生活中比较普遍，表现效果和性能优异，极大地便捷了人类的生活，促进了 AI 技术的落地实践和蓬勃发展。</p>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -378,11 +428,11 @@
 
           <div class="text-center p-3 p-md-5 bg-white">
             <div class="mb-4">            
-              <img src="images/people/person1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+              <img src="images/people/person6.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
             </div>
             <div class="text-black">
-              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">王基荣</h3>
-              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;祝愿大家能提升自己，度过愉快的大学时光！&rdquo;</p>
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">Nooooob</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;记得谈恋爱&rdquo;</p>
             </div>
           </div>
 
@@ -415,7 +465,87 @@
               <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;选择比努力重要&rdquo;</p>
             </div>
           </div>
-  
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person7.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">alcohol</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;开卷！开卷！&rdquo;</p>
+            </div>
+          </div>
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person5.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">Pepephant</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;不要慌，不踩坑补什么都重要&rdquo;</p>
+            </div>
+          </div>
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person1.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">王基荣</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;祝愿大家能提升自己，度过愉快的大学时光！&rdquo;</p>
+            </div>
+          </div>
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person8.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">oldsheep</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;别摆烂！&rdquo;</p>
+            </div>
+          </div>
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person9.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">tkk</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;好想进微光工作室啊~&rdquo;</p>
+            </div>
+          </div>
+
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person10.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">墨黑色的鹰</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;好好生活 其他都靠边站吧🤣&rdquo;</p>
+            </div>
+          </div>
+          
+          <div class="text-center p-3 p-md-5 bg-white">
+            <div class="mb-4">            
+              <img src="images/people/person11.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">
+            </div>
+            <div class="text-black">
+              <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">.</h3>
+              <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;努力学习，天天向上&rdquo;</p>
+            </div>
+          </div>
+          
+          <!--<div class="text-center p-3 p-md-5 bg-white">-->
+          <!--  <div class="mb-4">            -->
+          <!--    <img src="images/people/person12.jpg" alt="Image" class="w-50 mx-auto img-fluid rounded-circle">-->
+          <!--  </div>-->
+          <!--  <div class="text-black">-->
+          <!--    <p style="font-family: 'Arial'; font-size: 24px; font-weight: 600;">匿名</h3>-->
+          <!--    <p style="font-family: 'Arial'; font-size: 20px;">&ldquo;千万别去电科语言中心！！！&rdquo;</p>-->
+          <!--  </div>-->
+          <!--</div>-->
+
         </div>
       </div>
     </div>
@@ -426,7 +556,8 @@
         <div class="row text-center">
           <div class="col-md-12 mb-5">
             <h3>加入我们 || Join Us NOW</h3>
-            <p>团队秉承“兴趣驱动，自由发展”的理念<br>欢迎任何热爱技术的伙伴加入<br>无论你之前是否接触过计算机，无论你对哪方面感兴趣<br>只要有想法，有决心，敢于挑战困难，不断学习新知识<br>就能成为我们的一员!<br>详情请移步工作室<a href="https://join.glimmer.space/" target="_blank" style="color: red;font-size: 20px;"><b>招新平台</b></a> || 招新群：683234808</p>
+            <p>团队秉承“兴趣驱动，自由发展”的理念<br>欢迎任何热爱技术的伙伴加入<br>无论你之前是否接触过计算机，无论你对哪方面感兴趣<br>只要有想法，有决心，敢于挑战困难，不断学习新知识<br>就能成为我们的一员!<br>详情请移步工作室<a href="https://recruit.glimmer.org.cn/" target="_blank" style="color: red;font-size: 20px;"><b>招新平台</b></a> || 招新群：683234808</p>
+            <h3><a style="color: red; font-size: 20px;" href="files/2023招新报名表.docx" target="_blank" class="smoothscroll">招新报名表点这里哦</a></h3>
             <img src="./images/qqcode.png" style="height: 40vh;border-radius: 5px;">
           </div>
 
@@ -436,9 +567,11 @@
 
               <!-- link_to_modify! -->
               
-              <li><a href="https://glimmer.space/" target="_blank" class="smoothscroll">微光工作室官网</a></li>
-              <li><a href="https://glimmer.space/" target="_blank" class="smoothscroll">常见问题指南</a></li>
-              <li><a href="https://join.glimmer.space/" target="_blank" class="smoothscroll">招新平台</a></li>
+              <li><a href="files/2023招新报名表.docx" target="_blank" class="smoothscroll">招新报名表</a></li>
+              <li><a href="https://lab.glimmer.org.cn/" target="_blank" class="smoothscroll">光点计划</a></li>
+              <li><a href="https://recruit.glimmer.org.cn/" target="_blank" class="smoothscroll">招新平台</a></li>
+              <li><a href="https://recruit.glimmer.org.cn/md/%E6%8B%9B%E6%96%B0%E8%AF%B4%E6%98%8E.html" target="_blank" class="smoothscroll">招新说明</a></li>
+              <li><a href="https://recruit.glimmer.org.cn/md/QA.html" target="_blank" class="smoothscroll">Q&A</a></li>
             </ul>
           </div>
         </div>
@@ -446,14 +579,14 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-              <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+              <!--<p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">-->
                                                 
                       
-                Glimmer Studio，template from <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!--  Glimmer Studio，template from <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
               
-                </p>
+              <!--  </p>-->
                   <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
-                    &copy;2021<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank"> Copyright:蜀ICP备2023019386号-1</a>
+                    &copy;2023<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank"> Copyright:蜀ICP备2023019386号-1</a>
                   </p>
             
             </div>
